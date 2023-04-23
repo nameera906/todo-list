@@ -1,4 +1,4 @@
-import { List } from "./lib/list";
+import { List } from "./lib/List";
 
 const l1 = new List(document.body)
 const addbtn = document.getElementById('add-button')
