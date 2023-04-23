@@ -10,6 +10,8 @@ export class Item {
     }
 
     public setUpDom (title: string) {
+        let br = document.createElement('br')
+        br.innerHTML= ' '
         let button = document.createElement('button')
         button.innerHTML = 'complete';
         let t2 = document.createElement('h1')
