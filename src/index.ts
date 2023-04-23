@@ -1,10 +1,10 @@
 import { List } from "./lib/List";
 
-const l1 = new List(document.body)
-const addbtn = document.getElementById('add-button')
-const t1: HTMLInputElement = document.getElementById('t1') as HTMLInputElement
-addbtn?.addEventListener('click', ()=>{
-    l1.addItem(t1.value)
+const list = new List(document.body)
+const add_btn = document.getElementById('add-button')!;
+const item_name: HTMLInputElement = document.getElementById('t1') as HTMLInputElement
+add_btn.addEventListener('click', ()=>{
+    list.addItem(item_name.value)
 })
 
 
