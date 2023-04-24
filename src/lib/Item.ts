@@ -1,6 +1,6 @@
 export class Item {
     public title: string = '';
-    public complete: boolean = false;
+    public completed: boolean = false;
     public dom: HTMLElement = document.createElement('div')
 
     constructor (parent: HTMLElement, title: string) {
@@ -8,6 +8,7 @@ export class Item {
         this.setUpDom(title)
 
     }
+
 
     public setUpDom (title: string) {
         let br = document.createElement('br')

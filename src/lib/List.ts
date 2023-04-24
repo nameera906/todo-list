@@ -11,7 +11,19 @@ export class List {
     }
 
     public addItem(title: string) {
-        this.items.push(new Item(this.dom, title))
+        //this.items.push(new Item(this.dom, title))
+        const item = new Item(this.dom, title);
+        item.dom.addEventListener('click', () => {
+        item.completed = !item.completed;
+        if (item.completed) {
+            item.dom.classList.add('completed');
+            console.log(`Completed: ${item.title}`);
+        } else {
+            item.dom.classList.remove('completed');
+            console.log(`Not completed: ${item.title}`);
+        }
+        });
+        this.items.push(item);
     }
 
     public clearItems() {
