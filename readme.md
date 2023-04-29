@@ -6,9 +6,11 @@ enter it into the app and it will store the data for you.
 
 ## Getting Started
 To start developing:
-- We use vite
-- We also use typescript
-- We should be using scss for styling
+- <div style='display:flex;align-items:center;'>We use Vite<a href="https://vitejs.dev/"><img src="https://vitejs.dev/logo-with-shadow.png" width="50px" height="50px" style="padding:1em"></a></div>
+
+- <div style='display:flex;align-items:center;'>We also use Typescript <a href="https://www.typescriptlang.org/"><img src="./public/typescript.svg" style="padding:1em"></a></div>
+- <div style='display:flex;align-items:center;'>We should be using scss for styling <a><img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" style="padding:1em" width="50px" height="50px"></a></div>
+
 
 Run these commands
 
@@ -84,6 +86,7 @@ const created_button_parent = document.createElement('div');
 created_button_parent.append(created_button)
 
 ```
+
 Managing Database
 ```typescript
 /**
@@ -108,3 +111,6 @@ const gotten_value = JSON.parse(localStorage.getItem('name', JSON.stringify(valu
 ```
 
 
+#### Keywords
+[`DOM(Document Object Model)`](https://www.w3schools.com/js/js_htmldom.asp), [`DOM Methods`](https://www.w3schools.com/js/js_htmldom_document.asp), [`DOM Collections`](https://www.w3schools.com/js/js_htmldom_collections.asp),
+[`Web API's`](https://www.w3schools.com/js/js_api_intro.asp), [`JS JSON`](https://www.w3schools.com/js/js_json_intro.asp), [`localStorage`](https://www.javascripttutorial.net/web-apis/javascript-localstorage/), [`DOM Events`](https://www.w3schools.com/js/js_htmldom_events.asp), [`DOM Event Listeners`](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
