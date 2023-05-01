@@ -1,3 +1,8 @@
+/**
+ * TODO: Add a comment to explain what the Item class is
+ * TODO: Add a function to mark the Item as complete in the dom
+ */
+
 export class Item {
     public title: string = '';
     public complete: boolean = false;
